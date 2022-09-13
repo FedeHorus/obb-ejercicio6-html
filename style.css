@@ -1,0 +1,23 @@
+body{
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.boton{
+    size: 100vh;
+}
+
+.boton:hover {
+    background-color: bisque;
+    position: relative;
+    color:white
+}
+
+.boton:before {
+    content: "pasa por aqui"
+}
+.boton:hover::before {
+    content: "Listo!";
+
+}
